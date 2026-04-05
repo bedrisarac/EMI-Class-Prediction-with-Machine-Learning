@@ -2,6 +2,9 @@
 
 This project analyzes a synthetic personal finance dataset and builds a machine learning model to predict EMI classes.
 
+## Dataset Source
+The dataset used in this project was obtained from [Kaggle](https://www.kaggle.com/datasets/miadul/personal-finance-ml-dataset). The preprocessing steps, target variable transformation, model building, evaluation process, and report preparation were carried out within the scope of this project.
+
 ## Project Goal
 The original target variable `credit_score` did not show strong relationships with the available features.  
 Therefore, the target was changed to `monthly_emi_usd`, and the problem was reformulated as a classification task.
